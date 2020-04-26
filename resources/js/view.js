@@ -94,3 +94,13 @@ export const displayBasket = () => {
 export const hideBasket = () => {
     elements.itemsList.classList.toggle('displayBasket');
 }
+
+export const stickyNavFunc = () => {
+    let navbar = document.getElementById('navbar');
+  
+    if (window.pageYOffset >= 50) {
+      navbar.classList.add('sticky');
+    } else {
+      navbar.classList.remove('sticky');
+    }
+  }

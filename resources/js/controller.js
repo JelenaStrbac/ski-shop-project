@@ -1,4 +1,4 @@
-import { elements, renderItem, renderTotal, renderNumOfItems, deleteItemUI, renderQuantityInc, renderQuantityDec, displayBasket, hideBasket } from './view.js';
+import { elements, renderItem, renderTotal, renderNumOfItems, deleteItemUI, renderQuantityInc, renderQuantityDec, displayBasket, hideBasket, stickyNavFunc } from './view.js';
 import { Item, updateTotal, updateQuantityInc, updateQuantityDec, persistDataToStorage, readDataFromStorage, addItem, deleteItem, isInBasket, getNumItems } from './model.js';
 
 
@@ -145,21 +145,12 @@ window.addEventListener('load', () => {
     // 3. render num of items
     renderNumOfItems(state.numItems);
   }
+  stickyNavFunc();
 });
 //localStorage.clear();
 
 
 
-
 //  EVENT for sticky navbar
-window.addEventListener('scroll', () => {
-
-  let navbar = document.getElementById('navbar');
-
-  if (window.pageYOffset >= 50) {
-    navbar.classList.add('sticky');
-  } else {
-    navbar.classList.remove('sticky');
-  }
-});
+window.addEventListener('scroll', stickyNavFunc);
 
