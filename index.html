@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    <title>Ski prodavnica</title>
+</head>
+
+<body>
+    <!-- sticky nav-bar -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-left__ski-logo">
+            <ion-icon class="snow-icon" name="snow-outline"></ion-icon>
+            <div>SKIprodavnica</div>
+        </div>
+        <div class="nav-right">
+            <ul>
+                <li><a href="#">Proizvodi</a></li>
+                <li><a href="#">Galerija</a></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+            <ion-icon class="cart" name="cart-outline"></ion-icon>
+            <div class="num-of-items-in-cart">0</div>
+        </div>
+
+        <!-- Panel za Korpu START -->
+        <ul class="basket-items-panel">
+            <li class="basket-items-total">
+                <div class="basket-items-total__close-basket">Zatvori korpu</div>
+                <div class="basket-items-total__price-text">
+                    <div>UKUPNO:</div>
+                    <div>EUR</div>
+                    <div class="basket-items-total__price">0.00</div>
+                </div>
+            </li>
+        </ul>
+        <!-- Panel za Korpu END -->
+
+    </nav>
+
+    <header>
+        <div class="header-main-part">
+            <h1>Inspiracija zimom.<br>Za sve ljubitelje aktivnog odmora.</h1>
+            <a href="#" class="btn-intro">Porucite online</a>
+            <h3 id="border">Brza isporuka 24/7</h3>
+        </div>
+    </header>
+
+    <section>
+        <h2>Naši proizvodi</h2>
+
+        <div class="grid-container">
+            <div class="grid-item">
+                <div class="grid-item__img">
+                    <img src="resources/img/1.jpeg" alt="ski1">
+                </div>
+                <div class="grid-item__data">
+                    <h4 class="title">Rossignol - Seek 7 HD Skis with Xpress 11 Bindings</h4>
+                    <div class="grid-item__data__price-and-btn">
+                        <h4 class="price">EUR 436</h4>
+                        <button class="btn">Dodaj u korpu</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="grid-item__img">
+                    <img src="resources/img/2.jpeg" alt="ski2">
+                </div>
+                <div class="grid-item__data">
+                    <h4 class="title">Rossignol - React R8 TI Skis with Look SPX 12 Konect GW B80 Bindings 2020</h4>
+                    <div class="grid-item__data__price-and-btn">
+                        <h4 class="price">EUR 487</h4>
+                        <button class="btn">Dodaj u korpu</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="grid-item__img">
+                    <img src="resources/img/3.jpeg" alt="ski2">
+                </div>
+                <div class="grid-item__data">
+                    <h4 class="title">Volkl - Kendo 88 Skis 2020</h4>
+                    <div class="grid-item__data__price-and-btn">
+                        <h4 class="price">EUR 395</h4>
+                        <button class="btn">Dodaj u korpu</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="grid-item__img">
+                    <img src="resources/img/4.jpeg" alt="ski1">
+                </div>
+                <div class="grid-item__data">
+                    <h4 class="title">Line - Sick Day 88 Skis 2020</h4>
+                    <div class="grid-item__data__price-and-btn">
+                        <h4 class="price">EUR 243</h4>
+                        <button class="btn">Dodaj u korpu</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="grid-item__img">
+                    <img src="resources/img/5.jpeg" alt="ski1">
+                </div>
+                <div class="grid-item__data">
+                    <h4 class="title">Rossignol - Hero Elite Plus Ti Skis with SPX 12 Konect Bindings 2020</h4>
+                    <div class="grid-item__data__price-and-btn">
+                        <h4 class="price">EUR 610</h4>
+                        <button class="btn">Dodaj u korpu</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="grid-item__img">
+                    <img src="resources/img/6.jpeg" alt="ski2">
+                </div>
+                <div class="grid-item__data">
+                    <h4 class="title">Rossignol - Experience 76 CI Womens Skis with Xpress W 10 Bindings 2020</h4>
+                    <div class="grid-item__data__price-and-btn">
+                        <h4 class="price">EUR 305</h4>
+                        <button class="btn">Dodaj u korpu</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="grid-item__img">
+                    <img src="resources/img/7.jpeg" alt="ski2">
+                </div>
+                <div class="grid-item__data">
+                    <h4 class="title">Volkl - Deacon 74 Skis with rMotion2 Bindings 2020</h4>
+                    <div class="grid-item__data__price-and-btn">
+                        <h4 class="price">EUR 548</h4>
+                        <button class="btn">Dodaj u korpu</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="grid-item__img">
+                    <img src="resources/img/8.jpeg" alt="ski1">
+                </div>
+                <div class="grid-item__data">
+                    <h4 class="title">Blizzard - Black Pearl 88 Womens Skis 2020</h4>
+                    <div class="grid-item__data__price-and-btn">
+                        <h4 class="price">EUR 427</h4>
+                        <button class="btn">Dodaj u korpu</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="grid-item__img">
+                    <img src="resources/img/9.jpeg" alt="ski1">
+                </div>
+                <div class="grid-item__data">
+                    <h4 class="title">Salomon - X-Race Lab Race Skis with X-12 Lab Bindings</h4>
+                    <div class="grid-item__data__price-and-btn">
+                        <h4 class="price">EUR 508</h4>
+                        <button class="btn">Dodaj u korpu</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="grid-item__img">
+                    <img src="resources/img/10.jpeg" alt="ski2">
+                </div>
+                <div class="grid-item__data">
+                    <h4 class="title">Salomon - QST 85 Skis</h4>
+                    <div class="grid-item__data__price-and-btn">
+                        <h4 class="price">EUR 192</h4>
+                        <button class="btn">Dodaj u korpu</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="grid-item__img">
+                    <img src="resources/img/11.jpeg" alt="ski2">
+                </div>
+                <div class="grid-item__data">
+                    <h4 class="title">Nordica - Santa Ana S Girls Skis</h4>
+                    <div class="grid-item__data__price-and-btn">
+                        <h4 class="price">EUR 192</h4>
+                        <button class="btn">Dodaj u korpu</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="grid-item__img">
+                    <img src="resources/img/12.jpeg" alt="ski1">
+                </div>
+                <div class="grid-item__data">
+                    <h4 class="title">Rossignol - React R4 Sport Skis with Xpress 10 Bindings 2020</h4>
+                    <div class="grid-item__data__price-and-btn">
+                        <h4 class="price">EUR 305</h4>
+                        <button class="btn">Dodaj u korpu</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="grid-item__img">
+                    <img src="resources/img/13.jpeg" alt="ski1">
+                </div>
+                <div class="grid-item__data">
+                    <h4 class="title">Salomon - QST 92 Skis 2020</h4>
+                    <div class="grid-item__data__price-and-btn">
+                        <h4 class="price">EUR 391</h4>
+                        <button class="btn">Dodaj u korpu</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="grid-item__img">
+                    <img src="resources/img/14.jpeg" alt="ski2">
+                </div>
+                <div class="grid-item__data">
+                    <h4 class="title">Rossignol - Soul 7 HD Skis 2020</h4>
+                    <div class="grid-item__data__price-and-btn">
+                        <h4 class="price">EUR 457</h4>
+                        <button class="btn">Dodaj u korpu</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="grid-item__img">
+                    <img src="resources/img/15.jpeg" alt="ski2">
+                </div>
+                <div class="grid-item__data">
+                    <h4 class="title">Dynastar - Legend 84 Womens Skis with Xpress 11 Bindings 2020</h4>
+                    <div class="grid-item__data__price-and-btn">
+                        <h4 class="price">EUR 366</h4>
+                        <button class="btn">Dodaj u korpu</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="grid-item__img">
+                    <img src="resources/img/16.jpeg" alt="ski1">
+                </div>
+                <div class="grid-item__data">
+                    <h4 class="title">Atomic - Vantage 86 TI System Skis with Warden MNC 13 Bindings 2020</h4>
+                    <div class="grid-item__data__price-and-btn">
+                        <h4 class="price">EUR 618</h4>
+                        <button class="btn">Dodaj u korpu</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <h2>Galerija</h2>
+        <div class="gallery-main">
+            <div class="gallery-main-img">
+                <div class="gallery-img-mockup">
+                    <img class="phone" src="resources/img/insta.png" alt="test">
+                </div>
+                <div class="gallery-main-text">
+                    Ispricaj nam svoju pricu sa skijanja
+                    <span>&#128076;</span>
+                    <br> Uz svoju sliku na Instagramu stavi hashtag
+                    <span id="ski">#SKIprodavnica</span>
+                </div>
+            </div>
+            <div class="composition">
+                <img src="resources/img/gallery1.jpeg" alt="skiJelena" class="composition__photo composition__photo-p1">
+                <img src="resources/img/gallery2.jpg" alt="ski" class="composition__photo composition__photo-p2">
+                <img src="resources/img/gallery3.jpg" alt="ski" class="composition__photo composition__photo-p3">
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Kontaktirajte nas</h2>
+        <form action="#" method="POST">
+            <input type="text" name="nName" id="iName" placeholder="Ime i prezime">
+            <input type="email" name="nMail" id="" placeholder="E-mail">
+            <textarea name="nMessage" id="iMessage" cols="30" rows="10" placeholder="Poruka"></textarea>
+            <button class="btn-form">Posalji</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-top">
+            <div class="footer-top__ski-logo">
+                <ion-icon class="snow-icon" name="snow-outline"></ion-icon>
+                <div>SKIprodavnica</div>
+            </div>
+            <div>
+                <ion-icon name="logo-facebook"></ion-icon>
+                <ion-icon name="logo-instagram"></ion-icon>
+                <ion-icon name="logo-linkedin"></ion-icon>
+                <ion-icon name="logo-youtube"></ion-icon>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div>Designed by <ion-icon name="logo-github"></ion-icon>JelenaStrbac.</div>
+            <div>Web stranica je napravljena u
+                svrhu vezbe. Online prodaja nije moguca.</div>
+            <div>&COPY; April 2020</div>
+        </div>
+    </footer>
+
+
+    <!-- <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script> -->
+    <script type="module" src="resources/js/controller.js"></script>
+</body>
+
+</html>
