@@ -333,6 +333,7 @@ NASI PROIZVODI
 .grid-item__data .title {
     text-align: center;
     font-size: 80%;
+    font-weight: 300;
 }
 
 .grid-item__data .price {

@@ -58,9 +58,10 @@ export const updateTotal = arr => {
     if (priceArray.length > 0) {
         total = priceTimesQuantityArr.reduce((acc, curr) => acc + curr);
     } else {
-        total = '0.00';
+        total = '0';
     };
-
+    console.log(priceArray)
+    console.log(total)
     return total;
 }
 

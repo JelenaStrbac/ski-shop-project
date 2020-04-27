@@ -48,8 +48,10 @@ export const renderTotal = total => {
 const formatNumber = (input) => {
     let thousand, rest;
 
-    if (input < 1000) {
-        return `${input}.00`;
+    if (input == 0) {
+        return `${input},00`;
+    } else if (input < 1000) {
+        return `${input},00`;
     } else {
         thousand = Math.floor(input / 1000);
         rest = input % 1000;
